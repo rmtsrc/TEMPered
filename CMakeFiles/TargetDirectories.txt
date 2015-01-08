@@ -1,0 +1,7 @@
+/home/webcam/TEMPered/examples/CMakeFiles/enumerate.dir
+/home/webcam/TEMPered/utils/CMakeFiles/hid-query.dir
+/home/webcam/TEMPered/examples/CMakeFiles/read-all.dir
+/home/webcam/TEMPered/examples/CMakeFiles/read-repeat.dir
+/home/webcam/TEMPered/utils/CMakeFiles/tempered-exe.dir
+/home/webcam/TEMPered/libtempered/CMakeFiles/tempered-shared.dir
+/home/webcam/TEMPered/libtempered-util/CMakeFiles/tempered-util-shared.dir

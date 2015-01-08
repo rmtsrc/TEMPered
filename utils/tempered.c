@@ -193,6 +193,7 @@ void print_device_sensor(
 		( type & TEMPERED_SENSOR_TYPE_TEMPERATURE ) &&
 		( type & TEMPERED_SENSOR_TYPE_HUMIDITY )
 	) {
+/*
 		printf(
 			"%s %i: temperature %.2f %s"
 				", relative humidity %.1f%%"
@@ -206,6 +207,14 @@ void print_device_sensor(
 			),
 			options->temp_scale->symbol
 		);
+*/
+			printf("%.2f,%.2f,%.2f\n",
+				options->temp_scale->from_celsius(tempC),
+				rel_hum,
+				options->temp_scale->from_celsius(
+					tempered_util__get_dew_point(tempC, rel_hum)
+				)
+			);
 	}
 	else if ( type & TEMPERED_SENSOR_TYPE_TEMPERATURE )
 	{
