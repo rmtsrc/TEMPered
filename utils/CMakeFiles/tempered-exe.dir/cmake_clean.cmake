@@ -1,10 +1,10 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/tempered-exe.dir/tempered.c.o"
-  "tempered.pdb"
   "tempered"
+  "tempered.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/tempered-exe.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/tempered-exe.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

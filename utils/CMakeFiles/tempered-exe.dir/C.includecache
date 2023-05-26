@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/webcam/TEMPered/utils/tempered.c
+/home/pi/TEMPered/utils/tempered.c
 stdlib.h
 -
 stdio.h
@@ -20,11 +20,11 @@ getopt.h
 tempered-util.h
 -
 
-utils/../libtempered-util/tempered-util.h
+libtempered-util/tempered-util.h
 stdbool.h
 -
 
-utils/../libtempered/tempered.h
+libtempered/tempered.h
 stdbool.h
 -
 

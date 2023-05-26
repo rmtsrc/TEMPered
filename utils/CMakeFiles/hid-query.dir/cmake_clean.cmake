@@ -1,10 +1,10 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/hid-query.dir/hid-query.c.o"
-  "hid-query.pdb"
   "hid-query"
+  "hid-query.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/hid-query.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/hid-query.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

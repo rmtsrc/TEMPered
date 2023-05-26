@@ -1,0 +1,8 @@
+/usr/local/include/tempered.h
+/usr/local/lib/x86_64-linux-gnu/libtempered.so.0
+/usr/local/lib/x86_64-linux-gnu/libtempered.so
+/usr/local/include/tempered-util.h
+/usr/local/lib/x86_64-linux-gnu/libtempered-util.so.0
+/usr/local/lib/x86_64-linux-gnu/libtempered-util.so
+/usr/local/bin/hid-query
+/usr/local/bin/tempered

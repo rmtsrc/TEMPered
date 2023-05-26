@@ -1,10 +1,10 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/enumerate.dir/enumerate.c.o"
-  "enumerate.pdb"
   "enumerate"
+  "enumerate.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/enumerate.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/enumerate.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

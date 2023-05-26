@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/webcam/TEMPered/libtempered-util/calibration.c
+/home/pi/TEMPered/libtempered-util/calibration.c
 stdlib.h
 -
 errno.h
@@ -20,11 +20,11 @@ string.h
 math.h
 -
 
-/home/webcam/TEMPered/libtempered-util/dew-point.c
+/home/pi/TEMPered/libtempered-util/dew-point.c
 math.h
 -
 
-/home/webcam/TEMPered/libtempered-util/temp-scale.c
+/home/pi/TEMPered/libtempered-util/temp-scale.c
 unistd.h
 -
 string.h
@@ -32,9 +32,9 @@ string.h
 strings.h
 -
 tempered-util.h
-/home/webcam/TEMPered/libtempered-util/tempered-util.h
+/home/pi/TEMPered/libtempered-util/tempered-util.h
 
-/home/webcam/TEMPered/libtempered-util/tempered-util.h
+/home/pi/TEMPered/libtempered-util/tempered-util.h
 stdbool.h
 -
 

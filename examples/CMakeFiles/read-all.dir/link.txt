@@ -1,1 +1,1 @@
-/usr/bin/cc    -std=gnu99 -Wall -pedantic -Wextra    CMakeFiles/read-all.dir/read-all.c.o  -o read-all -rdynamic ../libtempered/libtempered.so.0 /usr/local/lib/libhidapi-hidraw.so -Wl,-rpath,/home/webcam/TEMPered/libtempered:/usr/local/lib 
+/usr/bin/cc   -std=gnu99 -Wall -pedantic -Wextra -rdynamic CMakeFiles/read-all.dir/read-all.c.o -o read-all  -Wl,-rpath,/home/pi/TEMPered/libtempered:/usr/local/lib ../libtempered/libtempered.so.0 /usr/local/lib/libhidapi-hidraw.so 

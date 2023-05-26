@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/webcam/TEMPered/examples/enumerate.c
+/home/pi/TEMPered/examples/enumerate.c
 stdlib.h
 -
 stdio.h
@@ -14,7 +14,7 @@ stdio.h
 tempered.h
 -
 
-examples/../libtempered/tempered.h
+libtempered/tempered.h
 stdbool.h
 -
 

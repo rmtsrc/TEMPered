@@ -1,1 +1,1 @@
-/usr/bin/cc    -std=gnu99 -Wall -pedantic -Wextra    CMakeFiles/read-repeat.dir/read-repeat.c.o  -o read-repeat -rdynamic ../libtempered/libtempered.so.0 /usr/local/lib/libhidapi-hidraw.so -Wl,-rpath,/home/webcam/TEMPered/libtempered:/usr/local/lib 
+/usr/bin/cc   -std=gnu99 -Wall -pedantic -Wextra -rdynamic CMakeFiles/read-repeat.dir/read-repeat.c.o -o read-repeat  -Wl,-rpath,/home/pi/TEMPered/libtempered:/usr/local/lib ../libtempered/libtempered.so.0 /usr/local/lib/libhidapi-hidraw.so 
